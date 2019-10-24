@@ -10,6 +10,7 @@ def directors_totals(nds)
   hash.map do |name,movies|
   movies.map do |worldwide_gross
     total+=movies[worldwide_gross]
+    end 
   end
 
 
