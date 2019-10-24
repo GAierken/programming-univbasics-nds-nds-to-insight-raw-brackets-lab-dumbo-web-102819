@@ -3,10 +3,10 @@ require 'directors_database'
 require "pry"
 
 def directors_totals(nds)
-  pp nds
+  hash=directors_database[]
   new_hash = {}
 
-  
+
 
   #:worldwide_gross
   # Remember, it's always OK to pretty print what you get *in* to make sure
