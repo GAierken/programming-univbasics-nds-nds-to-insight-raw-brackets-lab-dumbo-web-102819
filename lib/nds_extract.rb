@@ -5,9 +5,11 @@ require "pry"
 def directors_totals(nds)
   hash=directors_database[:name]
   new_hash = {}
+  total=0
 
   hash.map do |name,movies|
-
+  movies.map do
+  end
 
 
 
