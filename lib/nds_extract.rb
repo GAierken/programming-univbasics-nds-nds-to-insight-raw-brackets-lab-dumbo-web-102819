@@ -5,6 +5,7 @@ require "pry"
 def directors_totals(nds)
   pp nds
   binding.pry
+  #:worldwide_gross
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
