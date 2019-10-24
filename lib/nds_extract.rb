@@ -6,6 +6,8 @@ def directors_totals(nds)
   hash=directors_database[:name]
   new_hash = {}
 
+  hash.map do |name,worldwide_gross|
+
 
 
   #:worldwide_gross
