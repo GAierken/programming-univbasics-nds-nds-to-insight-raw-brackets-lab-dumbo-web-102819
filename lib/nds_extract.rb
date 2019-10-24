@@ -3,7 +3,7 @@ require 'directors_database'
 require "pry"
 
 def directors_totals(nds)
-  hash=directors_database[]
+  hash=directors_database[:name]
   new_hash = {}
 
 
