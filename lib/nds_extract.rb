@@ -5,6 +5,7 @@ require "pry"
 def directors_totals(nds)
   pp nds
   new_hash = {}
+
   
 
   #:worldwide_gross
